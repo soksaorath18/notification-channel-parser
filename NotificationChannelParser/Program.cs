@@ -8,6 +8,7 @@
     char c = notification[i];
 
     if (c == '[') {
+      channel = "";
       isOpenTag = true;
       continue;
     } else if (c == ']') {
